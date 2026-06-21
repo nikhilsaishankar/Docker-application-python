@@ -4,9 +4,9 @@ import requests
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
-AUTH_URL = "http://auth_service:5001"
-BOOK_URL = "http://book_service:5002"
-BORROW_URL = "http://borrow_service:5003"
+AUTH_URL = "http://auth_service.pythonapp-tg7kp4nvdhbzg75q:5001"
+BOOK_URL = "http://book_service.pythonapp-tg7kp4nvdhbzg75q:5002"
+BORROW_URL = "http://borrow_service.pythonapp-tg7kp4nvdhbzg75q:5003"
 
 @app.route("/")
 def home():
